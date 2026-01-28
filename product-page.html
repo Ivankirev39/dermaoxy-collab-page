@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Products</title>
+</head>
+<body>
+
+
+<header class="bg-[#7FA0AC] !py-3" style="font-family: var(--font-montserrat);">
+  <nav class="container mx-auto px-4">
+    <div class="flex justify-end lg:hidden">
+      <button id="hamburger" class="text-[#F4F4F4] focus:outline-none" aria-label="Toggle menu">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path class="hamburger-open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          <path class="hamburger-close hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div id="navMenu" class="hidden flex-col items-center lg:flex lg:flex-row lg:justify-evenly lg:min-w-0 mt-4 lg:mt-0 min-w-max">
+      <a href="index.html" class="text-[#F4F4F4] text-xl font-bold no-underline px-4 py-3 lg:py-2 transition-transform lg:hover:scale-105 border-b-4 border-transparent whitespace-nowrap">
+        About us
+      </a>
+
+      <a href="treatments.html" class="text-[#F4F4F4] text-xl font-bold no-underline px-4 py-3 lg:py-2 transition-transform lg:hover:scale-105 border-b-4 border-transparent whitespace-nowrap">
+        Treatments
+      </a>
+
+      <a href="/" class="text-[#F4F4F4] text-xl font-bold no-underline px-4 py-3 lg:py-2 transition-transform lg:hover:scale-105 border-b-4 border-transparent whitespace-nowrap">
+        Shop
+      </a>
+    </div>
+  </nav>
+</header>
+ <!-- Products Grid -->
+<section class="w-full mt-10" style="font-family: var(--font-montserrat);">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+    
+    <!-- Product 1 -->
+    <a href="product-details.html" class="bg-gray-100 p-8 flex flex-col items-center hover:shadow-lg transition-shadow">
+      <img src="media/a-link-defence-booster.png" alt="A-Link Defence Booster" class="w-full max-h-[340px] object-contain mb-4" />
+      <h3 class="text-xl font-bold text-center">A-Link Defence Booster</h3>
+    </a>
+    
+    <!-- Product 2 -->
+    <a href="product-details.html" class="bg-gray-100 p-8 flex flex-col items-center hover:shadow-lg transition-shadow">
+      <img src="media/a-link-defence-booster.png" alt="A-Link Defence Booster" class="w-full max-h-[340px] object-contain mb-4" />
+      <h3 class="text-xl font-bold text-center">A-Link Defence Booster</h3>
+    </a>
+    
+    <!-- Product 3 -->
+    <a href="product-details.html" class="bg-gray-100 p-8 flex flex-col items-center hover:shadow-lg transition-shadow">
+      <img src="media/a-link-defence-booster.png" alt="A-Link Defence Booster" class="w-full max-h-[340px] object-contain mb-4" />
+      <h3 class="text-xl font-bold text-center">A-Link Defence Booster</h3>
+    </a>
+    
+      <!-- Product 4 -->
+    <a href="product-details.html" class="bg-gray-100 p-8 flex flex-col items-center hover:shadow-lg transition-shadow">
+      <img src="media/a-link-defence-booster.png" alt="A-Link Defence Booster" class="w-full max-h-[340px] object-contain mb-4" />
+      <h3 class="text-xl font-bold text-center">A-Link Defence Booster</h3>
+    </a>
+    
+     <!-- Product 5 -->
+    <a href="product-details.html" class="bg-gray-100 p-8 flex flex-col items-center hover:shadow-lg transition-shadow">
+      <img src="media/a-link-defence-booster.png" alt="A-Link Defence Booster" class="w-full max-h-[340px] object-contain mb-4" />
+      <h3 class="text-xl font-bold text-center">A-Link Defence Booster</h3>
+    </a>
+    
+     <!-- Product 6 -->
+    <a href="product-details.html" class="bg-gray-100 p-8 flex flex-col items-center hover:shadow-lg transition-shadow">
+      <img src="media/a-link-defence-booster.png" alt="A-Link Defence Booster" class="w-full max-h-[340px] object-contain mb-4" />
+      <h3 class="text-xl font-bold text-center">A-Link Defence Booster</h3>
+    </a>
+    
+       
+  </div>
+</section>
+
+
+<footer class="bg-[#7FA0AC] rounded-base" style="font-family: var(--font-montserrat);">
+    <div class="w-full mx-auto text-white p-4 md:flex md:items-center md:justify-between">
+      <span class="text-lg font-semibold sm:text-center">© 2026 dermaOXY Bulgaria. All Rights Reserved.
+    </span>
+    </div>
+</footer>
+
+
+</body>
+</html>

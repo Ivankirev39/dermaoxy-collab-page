@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script  src="js/main.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Product Details</title>
+</head>
+<body class="bg-gray-50">
+
+
+    <header class="bg-[#7FA0AC] !py-3" style="font-family: var(--font-montserrat);">
+  <nav class="container mx-auto px-4">
+    <div class="flex justify-end lg:hidden">
+      <button id="hamburger" class="text-[#F4F4F4] focus:outline-none" aria-label="Toggle menu">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path class="hamburger-open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          <path class="hamburger-close hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div id="navMenu" class="hidden flex-col items-center lg:flex lg:flex-row lg:justify-evenly lg:min-w-0 mt-4 lg:mt-0 min-w-max">
+      <a href="index.html" class="text-[#F4F4F4] text-xl font-bold no-underline px-4 py-3 lg:py-2 transition-transform lg:hover:scale-105 border-b-4 border-transparent whitespace-nowrap">
+        About us
+      </a>
+
+      <a href="treatments.html" class="text-[#F4F4F4] text-xl font-bold no-underline px-4 py-3 lg:py-2 transition-transform lg:hover:scale-105 border-b-4 border-transparent whitespace-nowrap">
+        Treatments
+      </a>
+
+      <a href="product-page.html" class="text-[#F4F4F4] text-xl font-bold no-underline px-4 py-3 lg:py-2 transition-transform lg:hover:scale-105 border-b-4 border-transparent whitespace-nowrap">
+        Shop
+      </a>
+    </div>
+  </nav>
+</header>
+
+<section class="w-full mt-10 mb-20" style="font-family: var(--font-montserrat);">
+   <div class="container mx-auto px-4 py-8 max-w-9xl">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+            <!-- Left Column - Product Images -->
+            <div class="flex flex-col items-center">
+                <!-- Main Product Image -->
+                <div class="bg-gray-200 w-full flex items-center justify-center mb-6 min-h-[400px] lg:min-h-[500px]">
+                    <img id="mainImage" src="media/a-link-defence-booster.png" alt="A-Link Defence Booster" class="max-w-full max-h-[400px] lg:max-h-[500px] h-auto object-contain">
+                </div>
+                
+             <!-- Thumbnail Images -->
+                <div class="flex gap-4">
+                    <div onclick="changeMainImage('media/a-link-defence-booster.png')" class=" bg-gray-200 w-24 h-24 flex items-center justify-center p-3 cursor-pointer hover:ring-2 hover:ring-[#7FA0AC] transition">
+                        <img src="media/a-link-defence-booster.png" alt="Product view 1" class="max-w-full h-auto object-contain">
+                    </div>
+                    <div onclick="changeMainImage('media/a-link-df-booster-double-box-compresed.webp')" class=" bg-gray-200 w-24 h-24 flex items-center justify-center p-3 cursor-pointer hover:ring-2 hover:ring-[#7FA0AC] transition">
+                        <img src="media/a-link-df-booster-double-box-compresed.webp" alt="Product view 2" class="max-w-full h-[96px] object-contain">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <h1 class="text-4xl lg:text-5xl text-center md:text-left font-bold mb-6">A-Link Defence Booster</h1>
+                
+                <!-- Benefits List -->
+                <ul class="space-y-3 mb-8 font-medium">
+                    <li class="flex items-start">
+                        <span class="mr-3 text-xl">•</span>
+                        <span class="text-lg">Strengthens and rebuilds the skin</span>
+                    </li>
+                    <li class="flex items-start">
+                            <span class="mr-3 text-xl">•</span>
+                        <span class="text-lg">Reduces lines, wrinkles, and pigmentation</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="mr-3 text-xl">•</span>
+                        <span class="text-lg">Prevents sun damage and pigmentation in the skin</span>
+                    </li>
+                </ul>
+
+                <!-- Description Section -->
+                <h2 class="text-3xl font-bold text-center md:text-left mb-4">Description</h2>
+                
+                <div class="space-y-4 text-center md:text-left leading-relaxed">
+                    <p>
+                        dermaOXY A-Link Defence Booster helps strengthen the skin's natural defense and supports regeneration. It reduces fine lines, wrinkles, and pigmentation while stimulating collagen production, leaving the skin silky smooth and nourished.
+                    </p>
+                    
+                    <p>
+                        A-Link Defence Booster both prevents and repairs, among other things, sun damage and pigmentation changes. Its high content of vitamin A helps increase the skin's elasticity and softness. In addition, it has a beneficial effect on acne and other inflammatory conditions.
+                    </p>
+                    
+                    <p>
+                        A-Link Defence Booster has the regenerating effect of vitamin A and can be used as both a day and night cream.
+                    </p>
+                    
+                    <p>
+                        A-Link Defence Booster is recommended for daily use and works well in combination with Facecleanser Deep Clean and Moisturizing Gel.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<footer class="bg-[#7FA0AC] rounded-base" style="font-family: var(--font-montserrat);">
+    <div class="w-full mx-auto text-white p-4 md:flex md:items-center md:justify-between">
+      <span class="text-lg font-semibold sm:text-center">© 2026 dermaOXY Bulgaria. All Rights Reserved.
+    </span>
+    </div>
+</footer>
+
+</body>
+</html>

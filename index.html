@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>About Us</title>
+</head>
+<body>
+
+  
+<header class="bg-[#7FA0AC] !py-3" style="font-family: var(--font-montserrat);">
+  <nav class="container mx-auto px-4">
+    <div class="flex justify-end lg:hidden">
+      <button id="hamburger" class="text-[#F4F4F4] focus:outline-none" aria-label="Toggle menu">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path class="hamburger-open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          <path class="hamburger-close hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div id="navMenu" class="hidden flex-col items-center lg:flex lg:flex-row lg:justify-evenly lg:min-w-0 mt-4 lg:mt-0 min-w-max">
+      <a href="/" class="text-[#F4F4F4] text-xl font-bold no-underline px-4 py-3 lg:py-2 transition-transform lg:hover:scale-105 border-b-4 border-transparent whitespace-nowrap">
+        About us
+      </a>
+
+      <a href="treatments.html" class="text-[#F4F4F4] text-xl font-bold no-underline px-4 py-3 lg:py-2 transition-transform lg:hover:scale-105 border-b-4 border-transparent whitespace-nowrap">
+        Treatments
+      </a>
+
+      <a href="product-page.html" class="text-[#F4F4F4] text-xl font-bold no-underline px-4 py-3 lg:py-2 transition-transform lg:hover:scale-105 border-b-4 border-transparent whitespace-nowrap">
+        Shop
+      </a>
+    </div>
+  </nav>
+</header>
+
+<!-- hero section -->
+<section class="relative w-full h-[500px]">
+  <img src="media/about-us-hero-compressed.webp" alt="About Us Hero Image" class="absolute inset-0 w-full h-full object-cover object-center" />
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/50"></div>
+  
+  <!-- Hero content -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full gap-6 px-4">
+    <img src="media/derma-oxy-white-text-logo.png" alt="Company Logo" class="w-full max-w-[769px] h-auto"/>
+    <h1 class="text-white mt-5 text-3xl sm:text-4xl md:text-5xl font-bold text-center" style="font-family: var(--font-montserrat);">Danish Oxygen-Based Skincare</h1>
+  </div>
+</section>
+
+<!-- about section -->
+<section class="w-full" style="font-family: var(--font-montserrat);">
+  <div class="flex flex-col items-center  justify-center w-full !mt-10 !mb-20 px-4">
+    <h2 class="!mx-6 text-3xl text-center font-semibold mb-8" >
+       About DermaOxy
+    </h2>
+    
+    <p class="text-lg  max-w-5xl text-center leading-relaxed">
+      dermaOXY is a brand from MedicTinedic ApS and consists of Danish-developed and produced skincare products that restore the skin's health and counteract wrinkles and dry skin using natural active ingredients. DermaOXY's treatments and care products provide moisture to the skin and scalp with active hyaluronic acid, a high content of antioxidants, and an active supply of vitamins that stimulate the skin's own cell and collagen production.
+    </p>
+  </div>
+</section>
+
+<!-- company philosophy section -->
+<section class="w-full" style="font-family: var(--font-montserrat);">
+  <div class="flex flex-col items-center justify-center w-full !mt-10 px-4">
+    <h2 class="!mx-6 text-3xl text-center font-semibold mb-8" >
+     Future Skin Care
+    </h2>
+  </div>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
+    
+    <!-- Left side - Text content with blue background -->
+    <div class="bg-[#7FA0AC] flex items-center justify-center p-12 lg:p-16">
+      <div class="max-w-xl text-white space-y-8">
+        <p class="text-lg lg:text-xl leading-relaxed">
+          dermaOxy has great respect for the skin's natural structure and aim to demonstrate through our products that anti-aging can be achieved without cosmetic procedures. That is why they use oxygen—pure oxygen—in our treatments, helping to slow the skin's aging process and stimulate the production of elastin and collagen.
+        </p>
+        
+        <p class="text-lg lg:text-xl leading-relaxed">
+          DermaOXY is part of the future of skincare, and you can see a difference after just one treatment.
+        </p>
+      </div>
+    </div>
+    
+    <!-- Right side - Image -->
+    <div class="relative h-[400px] lg:h-auto">
+      <img 
+        src="media/future-skin-care-compressed.webp" 
+        alt="DermaOxy products and merchandise scattered around " 
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+    </div>
+    
+  </div>
+
+
+</section>
+
+<!-- FAQ section -->
+
+<section class="w-full py-12" style="font-family: var(--font-montserrat);">
+  <div class="flex flex-col items-center justify-center w-full px-4">
+    <h2 class="text-3xl text-center font-semibold mb-4">
+      Frequently Asked Questions
+    </h2>
+    
+    <p class="text-xl max-w-2xl text-center px-10 mb-10">
+      Having doubts about choosing DermaOxy's products? Have a look at the general questions about the company!
+    </p>
+
+
+  </div>
+
+
+  <!-- FAQ Items Container -->
+  <div class="max-w-6xl mx-auto px-4">
+    
+    <!-- FAQ Item 1 -->
+    <div class="border-t-3 border-b-3 border-[#7FA0AC]">
+      <button 
+        onclick="toggleFaq(this)" 
+        class="w-full flex items-center justify-between py-6 text-left hover:opacity-80 transition-opacity"
+      >
+        <h3 class="text-xl font-semibold pr-4">
+          How do dermaOXY products work?
+        </h3>
+        
+        <div class="flex-shrink-0">
+          <svg class="plus-icon w-8 h-8 text-[#7FA0AC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/>
+          </svg>
+          <svg class="minus-icon w-8 h-8 text-[#7FA0AC] hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M20 12H4"/>
+          </svg>
+        </div>
+      </button>
+      
+      <div class="answer-content hidden pb-6">
+        <p class="text-lg leading-relaxed">
+          Our products are designed to deliver intensive hydration, oxygen, and nourishing ingredients to the skin. They help strengthen the skin's natural balance, provide a fresh glow, and reduce visible signs of aging.
+        </p>
+      </div>
+    </div>
+    
+    <!-- FAQ Item 2 -->
+    <div class="border-b-3 border-[#7FA0AC]">
+      <button 
+        onclick="toggleFaq(this)" 
+        class="w-full flex items-center justify-between py-6 text-left hover:opacity-80 transition-opacity"
+      >
+          <h3 class="text-xl font-semibold pr-4">
+          How quickly can I expect to see results?
+        </h3>
+        
+        <div class="flex-shrink-0">
+          <svg class="plus-icon w-8 h-8 text-[#7FA0AC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/>
+          </svg>
+          <svg class="minus-icon w-8 h-8 text-[#7FA0AC] hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M20 12H4"/>
+          </svg>
+        </div>
+      </button>
+      
+      <div class="answer-content hidden pb-6">
+        <p class="text-xl leading-relaxed">
+         After just a few weeks of use, many experience more hydrated, smoother, and fresher-looking skin. Results become more noticeable with continued use.
+        </p>
+      </div>
+    </div>
+
+   <div class="border-b-3 border-[#7FA0AC]">
+      <button 
+        onclick="toggleFaq(this)" 
+        class="w-full flex items-center justify-between py-6 text-left hover:opacity-80 transition-opacity"
+      >
+          <h3 class="text-xl font-semibold pr-4">
+         Can I use the products if I have sensitive skin?
+        </h3>
+        
+        <div class="flex-shrink-0">
+          <svg class="plus-icon w-8 h-8 text-[#7FA0AC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/>
+          </svg>
+          <svg class="minus-icon w-8 h-8 text-[#7FA0AC] hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M20 12H4"/>
+          </svg>
+        </div>
+      </button>
+      
+      <div class="answer-content hidden pb-6">
+        <p class="text-xl leading-relaxed">
+        Yes, our products are formulated to be gentle and suitable for sensitive skin. We recommend patch testing first.
+        </p>
+      </div>
+    </div>
+
+
+      <div class="border-b-3 border-[#7FA0AC]">
+      <button 
+        onclick="toggleFaq(this)" 
+        class="w-full flex items-center justify-between py-6 text-left hover:opacity-80 transition-opacity"
+      >
+          <h3 class="text-xl font-semibold pr-4">
+         Can I combine the products with other skincare brands?
+        </h3>
+        
+        <div class="flex-shrink-0">
+          <svg class="plus-icon w-8 h-8 text-[#7FA0AC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/>
+          </svg>
+          <svg class="minus-icon w-8 h-8 text-[#7FA0AC] hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M20 12H4"/>
+          </svg>
+        </div>
+      </button>
+      
+      <div class="answer-content hidden pb-6">
+        <p class="text-xl leading-relaxed">
+       Yes, the products are designed to be easily combined with other skincare ranges.
+      </div>
+    </div>
+
+     <div class="border-b-3 border-[#7FA0AC]">
+      <button 
+        onclick="toggleFaq(this)" 
+        class="w-full flex items-center justify-between py-6 text-left hover:opacity-80 transition-opacity"
+      >
+          <h3 class="text-xl font-semibold pr-4">
+         How often should I use the products?
+        </h3>
+        
+        <div class="flex-shrink-0">
+          <svg class="plus-icon w-8 h-8 text-[#7FA0AC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 4v16m8-8H4"/>
+          </svg>
+          <svg class="minus-icon w-8 h-8 text-[#7FA0AC] hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M20 12H4"/>
+          </svg>
+        </div>
+      </button>
+      
+      <div class="answer-content hidden pb-6">
+        <p class="text-xl leading-relaxed">
+       For optimal results, we recommend daily use – morning and evening.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- products selector
+<section class="bg-[#7FA0AC] flex items-center justify-center p-12 mt-10 lg:p-16 overflow-hidden">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6">
+      
+      Skin Care
+      <a href="https://dermaoxy.com/en/collections/hudpleje" class="flex flex-col items-center text-center cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+        <div class="w-full aspect-square max-w-[280px] rounded-full border-5 border-white overflow-hidden mb-6 bg-white shadow-lg">
+          <img src="media/skin-care-compressed.webp" alt="Multiple Skin Care Products gathered in a line" loading="lazy" class="w-full h-full object-cover">
+        </div>
+        <h3 class="text-white text-2xl lg:text-3xl font-light tracking-wide">Skin Care</h3>
+      </a>
+      
+      Hair Care
+      <a href="https://dermaoxy.com/en/collections/harpleje" class="flex flex-col items-center text-center cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+        <div class="w-full aspect-square max-w-[280px] rounded-full border-5 border-white overflow-hidden mb-6 bg-white shadow-lg">
+          <img src="media/hair-care-compressed.webp" alt="Multiple Hair Care Products scattered around" loading="lazy" class="w-full h-full object-cover">
+        </div>
+        <h3 class="text-white text-2xl lg:text-3xl font-light tracking-wide">Hair Care</h3>
+      </a>
+      
+  
+    </div>
+  </div>
+</section> 
+
+-->
+<section class="split-selector">
+  <a href="product-page.html" class="bg left">
+    <h2 class="label skin">SKIN CARE</h2>
+  </a>
+
+  <a href="product-page.html" class="bg right">
+    <h2 class="label hair">HAIR CARE</h2>
+  </a>
+</section>
+
+<footer class="bg-[#7FA0AC] rounded-base" style="font-family: var(--font-montserrat);">
+    <div class="w-full mx-auto text-white p-4 md:flex md:items-center md:justify-between">
+      <span class="text-lg font-semibold sm:text-center">© 2026 dermaOXY Bulgaria. All Rights Reserved.
+    </span>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
