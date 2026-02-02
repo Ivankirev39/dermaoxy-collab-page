@@ -55,6 +55,32 @@
 }
 
 
+/* carousel scrollbar styling */
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #7FA0AC #f9f1f1; /* thumb color, track color */
+}
+
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #7FA0AC;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #5c7a8a;
+}
+
 @media (max-width: 768px) {
   .split-selector {
     height: 600px;
