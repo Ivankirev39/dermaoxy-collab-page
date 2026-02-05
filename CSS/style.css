@@ -24,7 +24,7 @@
 }
 
 .bg.left {
-  background: url(/media/skin-care-poly-compressed.jpg) right 20% / cover no-repeat;
+  background: url("media/skin-care-poly-compressed.jpg") right 20% / cover no-repeat;
   clip-path: polygon(0 100%, 0 0, 100% 100%);
   justify-content: flex-start; 
   align-items: flex-start; 
@@ -32,7 +32,7 @@
 }
 
 .bg.right {
-  background: url(/media/hair-care-compressed.webp) 90% center / cover no-repeat;
+  background: url("media/hair-care-compressed.webp") 90% center / cover no-repeat;
   clip-path: polygon(100% 0, 0 0, 100% 100%);
   justify-content: flex-end; 
   align-items: flex-start; 
