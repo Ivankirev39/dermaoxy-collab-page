@@ -91,9 +91,9 @@
     background-position: center center;
   }
 
-  .bg.right {
+ .bg.right {
     clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
-    background-position: center center;
+    background-position: center 100px !important;
   }
 
   .bg.left .label.skin {
